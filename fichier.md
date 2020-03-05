@@ -1,6 +1,6 @@
 # Résume langage Ruby
 ## Les classes des objets
-  * La classe String
+  * Le type String
   ```ruby
     "abcd".class #=> String
   ```
