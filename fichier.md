@@ -19,7 +19,7 @@
     "Hello, how are you?".split #=> ["Hello,", "how", "are", "you?"]
     "H-e-l-l-o".split('-') #=> ["H", "e", "l", "l", "o"]
   ```
-  * La classe Integer
+  * Le type Integer
    ```ruby
     123.class #=> Integer
    ```
@@ -44,7 +44,7 @@
     false.class #=> FalseClass
     nil.class #=> NilClass
    ```
-  * La classe Array
+  * Le type Array
   ```ruby
     [1,2,3,"aq"].class #=> Array
   ```
