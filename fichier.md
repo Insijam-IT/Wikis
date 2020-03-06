@@ -1,13 +1,16 @@
-# Résume langage Ruby
+# Résume du langage Ruby
 
-## les type des classe dans langage Ruby
+## les type des classe existe dans langage Ruby
   * String
   * Integer
   * Array
   * Fixnum
   * TrueClass
   * FalseClass
-
+  * Float
+  * Hash
+  * Symbol
+  * Bignum
 
 
 ## Les classes des objets
@@ -49,7 +52,7 @@
     15.gcd(5) #=> 5
     5.times do |i| print i, " " end #=> 0 1 2 3 4
   ```
-  * La classe TrueClass,FalseClass et NilClass
+  * Le type TrueClass,FalseClass et NilClass
    ```ruby
     true.class #=> TrueClass
     false.class #=> FalseClass
@@ -153,30 +156,30 @@
     p i
     i=i+1
     end
-     => 1
-        2
-        3
-        4
+     #=>1
+     #=>2
+     #=>3
+     #=>4
 
     i=1
     until(i>5)
     p i
     i=i+1
     end
-     => 1
-        2
-        3
-        4
+     #=>1
+     #=>2
+     #=>3
+     #=>4
 
     arr=[1,2,3,4,5]
     for item in arr
     p item
     end
-     => 1
-        2
-        3
-        4
-        5
+     #=>1
+     #=>2
+     #=>3
+     #=>4
+     #=>5
   ```
 ## Les fonction
   ```ruby
@@ -219,7 +222,7 @@
            frequence.each do |mot,valeur|
                 puts "le mot #{mot} apparaitre #{valeur} fois"
            end
-          le mot un apparaitre 3 fois
+          #=>le mot un apparaitre 3 fois
           #=>le mot texte apparaitre 2 fois
           #=>le mot est apparaitre 1 fois
           #=>le mot une apparaitre 2 fois
