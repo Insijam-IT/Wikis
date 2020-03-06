@@ -219,5 +219,42 @@
            frequence.each do |mot,valeur|
                 puts "le mot #{mot} apparaitre #{valeur} fois"
            end
+          le mot un apparaitre 3 fois
+          #=>le mot texte apparaitre 2 fois
+          #=>le mot est apparaitre 1 fois
+          #=>le mot une apparaitre 2 fois
+          #=>le mot série apparaitre 1 fois
+          #=>le mot orale apparaitre 1 fois
+          #=>le mot ou apparaitre 2 fois
+          #=>le mot écrite apparaitre 1 fois
+          #=>le mot de apparaitre 4 fois
+          #=>le mot mots apparaitre 1 fois
+          #=>le mot perçus apparaitre 1 fois
+          #=>le mot comme apparaitre 2 fois
+          #=>le mot constituant apparaitre 1 fois
+          #=>le mot ensemble apparaitre 1 fois
+          #=>le mot cohérent, apparaitre 1 fois
+          #=>le mot porteur apparaitre 1 fois
+          #=>le mot sens apparaitre 1 fois
+          #=>le mot et apparaitre 1 fois
+          #=>le mot utilisant apparaitre 1 fois
+          #=>le mot les apparaitre 1 fois
+          #=>le mot structures apparaitre 1 fois
+          #=>le mot propres apparaitre 1 fois
+          #=>le mot à apparaitre 2 fois
+          #=>le mot langue apparaitre 1 fois
+          #=>le mot n'a apparaitre 1 fois
+          #=>le mot pas apparaitre 1 fois
+          #=>le mot longueur apparaitre 1 fois
+          #=>le mot déterminée apparaitre 1 fois
+          #=>le mot sauf apparaitre 1 fois
+          #=>le mot dans apparaitre 1 fois
+          #=>le mot le apparaitre 3 fois
+          #=>le mot cas apparaitre 1 fois
+          #=>le mot poèmes apparaitre 1 fois
+          #=>le mot forme apparaitre 1 fois
+          #=>le mot fixe apparaitre 1 fois
+          #=>le mot sonnet apparaitre 1 fois
+          #=>le mot haïku. apparaitre 1 fois
 
   ```
