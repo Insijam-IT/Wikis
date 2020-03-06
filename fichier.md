@@ -1,10 +1,21 @@
 # Résume langage Ruby
+
+## les type des classe dans langage Ruby
+  * String
+  * Integer
+  * Array
+  * Fixnum
+  * TrueClass
+  * FalseClass
+
+
+
 ## Les classes des objets
   * Le type String
   ```ruby
     "abcd".class #=> String
   ```
-   Exemple des methode
+   Exemple des methodes
   ```ruby
     "abcd".length #=> 4
     "abcd".count  #=> 4
@@ -189,4 +200,24 @@
           end
      end
      #=>[1,5,7]
+  ```
+  * Exemple
+  ```ruby
+  text="Un texte est une série orale ou écrite de mots perçus
+      comme constituant un ensemble cohérent, porteur de sens
+      et utilisant les structures propres à une langue Un texte
+      n'a pas de longueur déterminée sauf dans le cas de poèmes
+      à forme fixe comme le sonnet ou le haïku."
+           frequence=Hash.new(0)
+           tableau=[]
+           tableau=text.downcase.split(' ')
 
+           tableau.each do |mot|
+                 frequence[mot]=frequence[mot]+1
+           end
+
+           frequence.each do |mot,valeur|
+                puts "le mot #{mot} apparaitre #{valeur} fois"
+           end
+
+  ```
