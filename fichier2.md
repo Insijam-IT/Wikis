@@ -1,6 +1,6 @@
 # Resume Git et Github
 
-## GIT
+## Git
 
  * C'est quoi Git
 
@@ -165,4 +165,24 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
   contribuer aux projets mis en ligne publiquement sur GitHub, en proposant des modifications.
   Le succès de GitHub repose notamment sur la façon dont le site a facilité ce processus.
 
+ * Les etape d'utilisation github
 
+   1. créer un compte github sur https://github.com/
+   2. connectez-vous à votre compte GitHub. Cliquez sur le bouton "Create new" symbolisé
+      par un signe "+" en haut à droite de votre écran, puis "New repository".
+      GitHub vous demandera alors de préciser quelques détails sur votre repository:
+      * son nom
+      * sa description
+      * son statut public ou privé. Ici, nous partageons du code open-source, c'est donc public et gratuit :).
+
+   Et voilà, vous avez créé votre premier repository sur GitHub
+
+   3. synchroniser les modifications dans votre repo sur votre machine avec votre repo sur GitHub ?
+
+    ```
+    git push origin master
+    ```
+   4. Pour récupérer en local les dernières modifications du repo GitHub
+    ```
+    git pull origin master
+    ```
