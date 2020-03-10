@@ -261,3 +261,41 @@
           #=>le mot haïku. apparaitre 1 fois
 
   ```
+## Les classes
+  ```ruby
+  class Nomclasse
+
+    #les getter et les setter pour les deux attributs
+    attr_accessor :attribut1, :attribut2
+    #le constructeur
+    def initialize(attribut1,attribut2)
+      @attribut1 = attribut1
+      @attribut2 = attribut2
+    end
+    #methode de l'instance
+    def get_description
+      "#{attribut1}  #{attribut1}"
+    end
+    #methode de la classe
+    def self.methodeClasse
+      "methode"
+    end
+  end
+  ```
+## Les methodes protected et private
+  ```ruby
+  class Nomclasse
+
+    ......
+    .......
+    protected
+    #les methode au dessous de protected sont protegés
+    def methodeProtected()
+    end
+
+    private
+    #les methode au dessous de private sont privés
+    def methodePrivate()
+    end
+  end
+  ```
