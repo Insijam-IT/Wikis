@@ -306,13 +306,13 @@
       ......
     end
 
-  #la classe B hérite de la classe A
+    #la classe B hérite de la classe A
     class B < A
       ....
       ......
     end
     ```
-  E
+
   * Exemple
     ```ruby
     class Veihcule
