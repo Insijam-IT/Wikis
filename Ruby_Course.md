@@ -299,3 +299,56 @@
     end
   end
   ```
+## L'héritage
+    ```ruby
+    class A
+      ....
+      ......
+    end
+
+  #la classe B hérite de la classe A
+    class B < A
+      ....
+      ......
+    end
+    ```
+  E
+  * Exemple
+    ```ruby
+    class Veihcule
+      attr_accessor :type
+
+      def initialize(type)
+        @type=type
+      end
+
+
+      def afficher_type
+        @type
+      end
+
+
+    end
+
+
+    class Voiture < Veihcule
+      attr_accessor :marque,:vitesse
+      def initialize(marque,vitesse,type)
+        super type
+        @marque = marque
+        @vitesse = vitesse
+      end
+
+      def afficher_voiture
+        p "la marque est: #{marque},avec une vitesse de:#{vitesse},et de type:" + afficher_type
+      end
+      def self.hello
+        p "Helloo!"
+      end
+    end
+    veihcule=Veihcule.new("voiture")
+    voiture=Voiture.new("renault","230Km/h",veihcule.afficher_type)
+    voiture.afficher_voiture
+
+        #=>"la marque est: renault,avec une vitesse de:230Km/h,et de type:voiture"
+    ```
