@@ -2,4 +2,4 @@
 
 Chapitre 1 : MVC
 
-1- Model
+1- View
