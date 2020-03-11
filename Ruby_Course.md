@@ -300,18 +300,18 @@
   end
   ```
 ## L'héritage
-    ```ruby
-    class A
-      ....
-      ......
-    end
+  ```ruby
+  class A
+    ...
+    ......
+  end
 
-    #la classe B hérite de la classe A
-    class B < A
-      ....
-      ......
-    end
-    ```
+  #la classe B hérite de la classe B
+  class B < A
+    ...
+    .....
+  end
+  ```
 
   * Exemple
     ```ruby
