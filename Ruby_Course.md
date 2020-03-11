@@ -11,6 +11,7 @@
   * Hash
   * Symbol
   * Bignum
+  * Regexp
 
 
 ## Les classes des objets
