@@ -80,22 +80,22 @@
 
    - D'autre part, la version HTML utilisée doit être précisée dans la première ligne, en utilisant une balise `<!DOCTYPE ...>`
 
-```html
-Exemple:
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<html>
-  <head>
-    <title>Bienvenue dans l'estuaire de Seine</title>
-  </head>
-  <body>
-    <h1>L'estuaire de Seine</h1>
-    <p>
-      Lieu magique, rencontre du fleuve et de la mer,un environnement unique,
-      l'estuaire de Seine est aussi un lieu de communication important...
-    </p>
-  </body>
-</html>
-```
+   ```html
+   Exemple:
+   <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+   <html>
+     <head>
+       <title>Bienvenue dans l'estuaire de Seine</title>
+     </head>
+     <body>
+       <h1>L'estuaire de Seine</h1>
+       <p>
+         Lieu magique, rencontre du fleuve et de la mer,un environnement unique,
+         l'estuaire de Seine est aussi un lieu de communication important...
+       </p>
+     </body>
+   </html>
+   ```
 
 4. Exemple des balises:
 
@@ -325,15 +325,15 @@ Résultat : Texte en Gras
 
 12. Les contenu embarqué:
 
-    - les images
-      ```ruby
-      <img src=‘’NomImage.Ext’’ height=% width=% >
-      ```
-    - Audio
-      ```ruby
-      <audio src="musique.mp3" controls></audio>
-      ```
-      -git Video
-      ```ruby
-      <video src=" video.mp4" width="200" height="200" controls></video>
-      ```
+- les images
+  ```ruby
+  <img src=‘’NomImage.Ext’’ height=% width=% >
+  ```
+- Audio
+  ```ruby
+  <audio src="musique.mp3" controls></audio>
+  ```
+- Video
+  ```ruby
+  <video src=" video.mp4" width="200" height="200" controls></video>
+  ```
