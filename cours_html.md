@@ -160,7 +160,7 @@
 
   Exemple:
 
-  ````html
+  ```html
   <dl>
     <dt>HTML</dt>
     <dd>Langage de structuration des contenus des pages web</dd>
@@ -168,9 +168,8 @@
     <dd>Langage d’interrogation des bases de données</dd>
   </dl>
   ```
-  ````
 
-* Liste ordonnée:
+* Liste ordonnée
 
   L'élément HTML <ol> représente une liste ordonnée. Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres, de lettres, de chiffres romains ou de points
 
@@ -329,7 +328,7 @@
     ```ruby
     <audio src="musique.mp3" controls></audio>
     ```
-  - Video
+    -git Video
     ```ruby
     <video src=" video.mp4" width="200" height="200" controls></video>
     ```
