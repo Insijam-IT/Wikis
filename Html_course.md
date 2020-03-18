@@ -12,14 +12,14 @@
 
 - Page Web HTML:
 
-      La                   page Web HTML est constitué de : titres, paragraphes, images, tableaux,formulaires, liens hypertext...)
-      Après              être passé par une version appelé XHTML (qui est réellement une reformulation de HTML en tant qu’application XML).
+      La page Web HTML est constitué de : titres, paragraphes, images, tableaux,formulaires, liens hypertext...)
+      Après être passé par une version appelé XHTML (qui est réellement une reformulation de HTML en tant qu’application XML).
 
 - L’organisme W3C:
 
       Un acteur actuellement responsables des évolutions,des recommandations et des spécifications du langage HTML: L’organisme W3C (World Wide Web Consortium : http:// www.w3.org/
 
-## utilisation du langage Html:
+## Utilisation du langage Html:
 
 - Pour apprendre le langage HTML, on a besoin :
 
@@ -31,8 +31,6 @@
 
 - Pour développer des sites web professionnels, on utilise souvent des logiciels de développement spécialisés appelés aussi éditeurs WYSIWYG :What You See Is What You Get (Ce que vous voyez, vous l'obtenez).
 
-- On trouve entre autres Adobe DreamWeaver.
-
 ## Syntaxe du langage HTML:
 
 - Editeurs de Coding:
@@ -43,36 +41,40 @@
 
   1. document HTML:
 
+     La description d'un document HTML passe par l'utilisation de balises. Une balise est délimitée par les signe "<" et ">".
 
-      La                   description d'un document HTML passe par l'utilisation de balises. Une balise est délimitée par les signe               "<" et ">" Exemple: <Center> Chaque balise doit être fermé < … > ……. </…> (Exception balises Auto fermeture)
+     ```html
+      Exemple:
+       <Center> Chaque balise doit être fermé < … > ……. </…> (Exception balises Auto fermeture)
+     ```
 
-2. Les attributs:
+  2. Les attributs:
 
-Les attributs modifient les propriétés des balises HTML.
-<balise attribut_1 = valeur1 attribut_2 = valeur2>
+     Les attributs modifient les propriétés des balises HTML.
 
-```html
-Exemple :
-<font size="7" face="‘’Arial’’" color="‘’red‘‘" Align="‘’right’’"></font>
-```
+
+      ```html
+      Exemple :
+      <font size="7" face="‘’Arial’’" color="‘’red‘‘" Align="‘’right’’"></font>
+      ```
 
 3. Les commentaires:
 
 
       Les commentaires débute par <!‐‐ et finit par ‐‐> .
 
-```html
-Exemple:
-<!‐‐ Ceci est un commentaire ‐‐>
-```
+      ```html
+      Exemple:
+      <!‐‐ Ceci est un commentaire ‐‐>
+      ```
 
 - Structure générale d’un document HTML:
 
-  Un document HTML 4.0 comporte 2 parties, encadrées par des balises <HTML> et </HTML> :
+  Un document HTML 4.0 comporte 2 parties, encadrées par des balises `<HTML> et </HTML>` :
 
-  1. Un en-tête de déclaration (délimité par des balises <HEAD>)
+  1. Un en-tête de déclaration (délimité par des balises `<HEAD>`)
   2. Le corps du document, dans lequel on placera le contenu de celui-ci (délimité par des balises <BODY>
-  3. D'autre part, la version HTML utilisée doit être précisée dans la première ligne, en utilisant une balise <!DOCTYPE ...>
+  3. D'autre part, la version HTML utilisée doit être précisée dans la première ligne, en utilisant une balise `<!DOCTYPE ...>`
 
   ````html
   EXEMPLE:
@@ -97,22 +99,24 @@ Exemple:
   ```html
   1. Formater un texte en GRAS :
   <b> définit un texte gras (b de bold en anglais) puis se termine par </b>
-  La balise : <b>Texte en Gras</b> Résultat : Texte en Gras 2. Gérer la taille
-  du texte : 2.
+  La balise : <b>Texte en Gras</b>
+  Résultat : Texte en Gras 2. Gérer la tailledu texte :
   <font size="+3"> définit la taille du texte puis se termine par </font>
   (valeurs de -3 à +3) La balise :<font size="+3"
     >Texte en grand<font>
-      Résultat : Texte en grand 3.Formater un texte en italique : 3.
+      Résultat : Texte en grand 3.Formater un texte en italique :
       <i> définit un texte en Italique puis se termine par </i> La balise :
-      <i>Texte en Italique</i> Résultat : Texte en Italique 4.Formater un texte
-      souligné : 4. <u> définit un texte souligné puis se termine par </u> La
-      balise : <u>Texte Souligné</u> Résultat : Texte Souligné 5.Formater un
-      indice : 5. <sub> définit un texte en indice puis se termine par</sub> La
-      balise : Texte <sub>en indice </sub> Résultat : Texte en indice 6.Le
-      retour à la ligne : 6. <br />définit un retour à la ligne (pas besoin d'un
-      tag de fermeture) Exemple : Texte de la première ligne<br />Texte de la
-      seconde ligne Résultat : Texte de la première ligne Texte de la seconde
-      ligne</font
+      <i>Texte en Italique</i>
+      Résultat : Texte en Italique 4.Formater un texte souligné :
+      <u> définit un texte souligné puis se termine par </u>
+      La balise : <u>Texte Souligné</u>
+      Résultat : Texte Souligné 5.Formater un indice :
+      <sub> définit un texte en indice puis se termine par</sub>
+      La balise : Texte <sub>en indice </sub>
+      Résultat : Texte en indice 6.Le retour à la ligne :
+      <br />définit un retour à la ligne (pas besoin d'untag de fermeture)
+      Exemple : Texte de la première ligne<br />Texte de la seconde ligne
+      Résultat : Texte de la première ligne Texte de la seconde ligne</font
     ></font
   >
   ```
@@ -289,13 +293,14 @@ Exemple:
 * Les contenu embarqué:
 
   1.  les images
-
+      ```ruby
       <img src=‘’NomImage.Ext’’ height=% width=% >
-
+      ```
   2.  Audio
-
+      ```ruby
       <audio src="musique.mp3" controls></audio>
-
+      ```
   3.  Video
-
+      ```ruby
       <video src=" video.mp4" width="200" height="200" controls></video>
+      ```
