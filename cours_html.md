@@ -39,18 +39,18 @@
 
 - Notion de balise (élément)
 
-  1. document HTML:
+  - document HTML:
 
-     La description d'un document HTML passe par l'utilisation de balises. Une balise est délimitée par les signe "<" et ">".
+    La description d'un document HTML passe par l'utilisation de balises. Une balise est délimitée par les signe "<" et ">".
 
-     ```html
-      Exemple:
-       <Center> Chaque balise doit être fermé < … > ……. </…> (Exception balises Auto fermeture)
-     ```
+    ```html
+     Exemple:
+      <Center> Chaque balise doit être fermé < … > ……. </…> (Exception balises Auto fermeture)
+    ```
 
-  2. Les attributs:
+  - Les attributs:
 
-     Les attributs modifient les propriétés des balises HTML.
+    Les attributs modifient les propriétés des balises HTML.
 
 
       ```html
@@ -58,7 +58,7 @@
       <font size="7" face="‘’Arial’’" color="‘’red‘‘" Align="‘’right’’"></font>
       ```
 
-3. Les commentaires:
+- Les commentaires:
 
 
       Les commentaires débute par <!‐‐ et finit par ‐‐> .
@@ -72,12 +72,14 @@
 
   Un document HTML 4.0 comporte 2 parties, encadrées par des balises `<HTML> et </HTML>` :
 
-  1. Un en-tête de déclaration (délimité par des balises `<HEAD>`)
-  2. Le corps du document, dans lequel on placera le contenu de celui-ci (délimité par des balises <BODY>
-  3. D'autre part, la version HTML utilisée doit être précisée dans la première ligne, en utilisant une balise `<!DOCTYPE ...>`
+  - Un en-tête de déclaration (délimité par des balises `<HEAD>`)
+
+  - Le corps du document, dans lequel on placera le contenu de celui-ci (délimité par des balises <BODY>
+
+  - D'autre part, la version HTML utilisée doit être précisée dans la première ligne, en utilisant une balise `<!DOCTYPE ...>`
 
   ````html
-  EXEMPLE:
+  Exemple:
   <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
   <html>
     <head>
@@ -94,41 +96,47 @@
   ```
   ````
 
-- Exemple des balises:
+* Exemple des balises:
 
-  1. Formater un texte en GRAS :
-     <b> définit un texte gras (b de bold en anglais) puis se termine par </b>
-     La balise : <b>Texte en Gras</b>
-     Résultat : Texte en Gras
+  - Formater un texte en GRAS :
+    <b> définit un texte gras (b de bold en anglais) puis se termine par </b>
+    La balise : <b>Texte en Gras</b>
 
-  2. Gérer la tailledu texte :
-     <font size="+3"> définit la taille du texte puis se termine par </font>
-     (valeurs de -3 à +3)
-     La balise :<font size="+3">Texte en grand<font>
-     Résultat : Texte en grand
+    Résultat : Texte en Gras
 
-  3. Formater un texte en italique :
-     <i> définit un texte en Italique puis se termine par </i>
-     La balise :<i>Texte en Italique</i>
-     Résultat : Texte en Italique
+  - Gérer la tailledu texte :
+    <font size="+3"> définit la taille du texte puis se termine par </font>
+    (valeurs de -3 à +3)
+    La balise :<font size="+3">Texte en grand<font>
 
-  4. Formater un texte souligné :
-     <u> définit un texte souligné puis se termine par </u>
-     La balise : <u>Texte Souligné</u>
-     Résultat : Texte Souligné
+    Résultat : Texte en grand
 
-  5. Formater un indice :
-     <sub> définit un texte en indice puis se termine par</sub>
-     La balise : Texte <sub>en indice </sub>
-     Résultat : Texte en indice
+  - Formater un texte en italique :
+    <i> définit un texte en Italique puis se termine par </i>
+    La balise :<i>Texte en Italique</i>
 
-  6. Le retour à la ligne :
-     <br />définit un retour à la ligne (pas besoin d'untag de fermeture)
-     Exemple : Texte de la première ligne<br />Texte de la seconde ligne
-     Résultat : Texte de la première ligne
-     Texte de la seconde ligne
+    Résultat : Texte en Italique
 
-- Les listes:
+  - Formater un texte souligné :
+    <u> définit un texte souligné puis se termine par </u>
+    La balise : <u>Texte Souligné</u>
+
+    Résultat : Texte Souligné
+
+  - Formater un indice :
+    <sub> définit un texte en indice puis se termine par</sub>
+    La balise : Texte <sub>en indice </sub>
+
+    Résultat : Texte en indice
+
+  - Le retour à la ligne :
+    <br />définit un retour à la ligne (pas besoin d'untag de fermeture)
+    Exemple : Texte de la première ligne<br />Texte de la seconde ligne
+
+    Résultat : Texte de la première ligne
+    Texte de la seconde ligne
+
+* Les listes:
 
   ```html
   Les listes HTML sont prévues pour dresser des énumérations. Les structures
@@ -162,7 +170,7 @@
   ```
   ````
 
-- Liste ordonnée:
+* Liste ordonnée:
 
   L'élément HTML <ol> représente une liste ordonnée. Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres, de lettres, de chiffres romains ou de points
 
@@ -191,7 +199,7 @@
       4.Fill muffin tray 3/4 full.
       5.Bake for 20 minutes.
 
-- Liste non ordonnée:
+* Liste non ordonnée:
 
   ```html
   <ul type="?">
@@ -200,7 +208,7 @@
   --></ul>
   ```
 
-- Les Tableaux en HTML:
+* Les Tableaux en HTML:
 
       En HTML, un tableau se construit ligne par ligne. Dans chaque ligne (<tr>), on indique le contenu des différentes cellules (<td>).
 
@@ -237,7 +245,7 @@
 
      </table>
 
-- Les Liens hypertext en HTML:
+* Les Liens hypertext en HTML:
 
   Un hyperlien, ou lien hypertexte, ou lien web, ou simplement lien, est une référence dans un système hypertexte permettant de passer automatiquement d'un document consulté à un document lié. Les hyperliens sont notamment utilisés dans le World Wide Web pour permettre le passage d'une page Web à une autre à l'aide d'un clic.
 
@@ -252,37 +260,51 @@
     <A id="paragra1">Paragraphe 1</a>Structure Document HTML <a href="#para1">Aller à la structure </a>
   ```
 
-- Les Formulaires:
+* Les Formulaires:
 
   ```html
-  1. <input type="text" name="ident" /> 2.
-  <select name="menu">
-    < option> Orange < option selected> Citron < option> Pêche
-  </select>
-  3. <input type="checkbox" name="Act" value="Sport" checked /> Sport 4.
-  <input type="radio" name="SF" value="Cel" />Célibataire 5.
-  <input type="submit" value="Envoi" /> 6. <input type="reset" value="Efface" />
+  - <input type="text" name="ident" />
   ```
 
-  1.  <input type=text name="ident">
-  2.  <select name="menu">
-          < option> Orange
-          < option selected> Citron
-          < option> Pêche
-      </select>
-  3.  <input type="checkbox" name="Act" value="Sport"
-      checked> Sport
-  4.  <input type="radio" name="SF" value="Cel">Célibataire
-  5.  <input type="submit" value="Envoi">
-  6.  <input type="reset" value="Efface">
+  ```html
+  -
+  <select name="menu">
+    <option> Orange < option selected> Citron < option> Pêche </option></select
+  >
+  ```
 
-- Les Menus
+  ```html
+  - <input type="checkbox" name="Act" value="Sport" checked /> Sport
+  ```
+
+  ```html
+  - <input type="radio" name="SF" value="Cel" />Célibataire
+  ```
+
+  ```html
+  - <input type="submit" value="Envoi" /> 6.
+  <input type="reset" value="Efface" />
+  ```
+
+  - <input type=text name="ident">
+  - <select name="menu">
+         < option> Orange
+         < option selected> Citron
+         < option> Pêche
+     </select>
+  - <input type="checkbox" name="Act" value="Sport"
+     checked> Sport
+  - <input type="radio" name="SF" value="Cel">Célibataire
+  - <input type="submit" value="Envoi">
+  - <input type="reset" value="Efface">
+
+* Les Menus
 
       L'élément FRAME permet de définir le contenu de chacune des zones. Pour cela, on utilise deux attributs :
 
-      1. src=url pour indiquer le fichier à placer dans la zone
+      - src=url pour indiquer le fichier à placer dans la zone
 
-      2. name=nomDeZonepermet de nommer la zone afin qu'elle puisse devenir la cible d'un lien (on utilisera alors l'attribut target de la balise <A> pour y accéder.
+      - name=nomDeZonepermet de nommer la zone afin qu'elle puisse devenir la cible d'un lien (on utilisera alors l'attribut target de la balise <A> pour y accéder.
 
   Exemple:
 
@@ -297,17 +319,17 @@
    ```
   ````
 
-- Les contenu embarqué:
+* Les contenu embarqué:
 
-  1.  les images
-      ```ruby
-      <img src=‘’NomImage.Ext’’ height=% width=% >
-      ```
-  2.  Audio
-      ```ruby
-      <audio src="musique.mp3" controls></audio>
-      ```
-  3.  Video
-      ```ruby
-      <video src=" video.mp4" width="200" height="200" controls></video>
-      ```
+  - les images
+    ```ruby
+    <img src=‘’NomImage.Ext’’ height=% width=% >
+    ```
+  - Audio
+    ```ruby
+    <audio src="musique.mp3" controls></audio>
+    ```
+  - Video
+    ```ruby
+    <video src=" video.mp4" width="200" height="200" controls></video>
+    ```
