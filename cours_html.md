@@ -96,30 +96,37 @@
 
 - Exemple des balises:
 
-  ```html
   1. Formater un texte en GRAS :
-  <b> définit un texte gras (b de bold en anglais) puis se termine par </b>
-  La balise : <b>Texte en Gras</b>
-  Résultat : Texte en Gras 2. Gérer la tailledu texte :
-  <font size="+3"> définit la taille du texte puis se termine par </font>
-  (valeurs de -3 à +3) La balise :<font size="+3"
-    >Texte en grand<font>
-      Résultat : Texte en grand 3.Formater un texte en italique :
-      <i> définit un texte en Italique puis se termine par </i> La balise :
-      <i>Texte en Italique</i>
-      Résultat : Texte en Italique 4.Formater un texte souligné :
-      <u> définit un texte souligné puis se termine par </u>
-      La balise : <u>Texte Souligné</u>
-      Résultat : Texte Souligné 5.Formater un indice :
-      <sub> définit un texte en indice puis se termine par</sub>
-      La balise : Texte <sub>en indice </sub>
-      Résultat : Texte en indice 6.Le retour à la ligne :
-      <br />définit un retour à la ligne (pas besoin d'untag de fermeture)
-      Exemple : Texte de la première ligne<br />Texte de la seconde ligne
-      Résultat : Texte de la première ligne Texte de la seconde ligne</font
-    ></font
-  >
-  ```
+     <b> définit un texte gras (b de bold en anglais) puis se termine par </b>
+     La balise : <b>Texte en Gras</b>
+     Résultat : Texte en Gras
+
+  2. Gérer la tailledu texte :
+     <font size="+3"> définit la taille du texte puis se termine par </font>
+     (valeurs de -3 à +3)
+     La balise :<font size="+3">Texte en grand<font>
+     Résultat : Texte en grand
+
+  3. Formater un texte en italique :
+     <i> définit un texte en Italique puis se termine par </i>
+     La balise :<i>Texte en Italique</i>
+     Résultat : Texte en Italique
+
+  4. Formater un texte souligné :
+     <u> définit un texte souligné puis se termine par </u>
+     La balise : <u>Texte Souligné</u>
+     Résultat : Texte Souligné
+
+  5. Formater un indice :
+     <sub> définit un texte en indice puis se termine par</sub>
+     La balise : Texte <sub>en indice </sub>
+     Résultat : Texte en indice
+
+  6. Le retour à la ligne :
+     <br />définit un retour à la ligne (pas besoin d'untag de fermeture)
+     Exemple : Texte de la première ligne<br />Texte de la seconde ligne
+     Résultat : Texte de la première ligne
+     Texte de la seconde ligne
 
 - Les listes:
 
@@ -184,7 +191,7 @@
       4.Fill muffin tray 3/4 full.
       5.Bake for 20 minutes.
 
-* Liste non ordonnée:
+- Liste non ordonnée:
 
   ```html
   <ul type="?">
@@ -193,7 +200,7 @@
   --></ul>
   ```
 
-* Les Tableaux en HTML:
+- Les Tableaux en HTML:
 
       En HTML, un tableau se construit ligne par ligne. Dans chaque ligne (<tr>), on indique le contenu des différentes cellules (<td>).
 
@@ -245,7 +252,7 @@
     <A id="paragra1">Paragraphe 1</a>Structure Document HTML <a href="#para1">Aller à la structure </a>
   ```
 
-* Les Formulaires:
+- Les Formulaires:
 
   ```html
   1. <input type="text" name="ident" /> 2.
@@ -269,7 +276,7 @@
   5.  <input type="submit" value="Envoi">
   6.  <input type="reset" value="Efface">
 
-* Les Menus
+- Les Menus
 
       L'élément FRAME permet de définir le contenu de chacune des zones. Pour cela, on utilise deux attributs :
 
@@ -290,7 +297,7 @@
    ```
   ````
 
-* Les contenu embarqué:
+- Les contenu embarqué:
 
   1.  les images
       ```ruby
